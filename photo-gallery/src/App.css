@@ -54,3 +54,43 @@ aside {
   z-index: 1;
   /* transform: rotateY(360deg); */
 }
+
+
+/* Beginning of media queries*/
+
+@media screen and (max-width: 700px) {
+  .container {
+    display: grid;
+    grid-template-columns: 50% 1fr;
+  }
+  .row {
+    gap: 2rem;
+  }
+  .gallery-photo {
+    height: 35vh;
+    width: 40vw;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .container {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+  }
+  .row {
+    gap: 2rem;
+  }
+  .logo {
+    height: 30vh;
+    width: 40vw;
+  }
+  .gallery-photo {
+    height: 30vh;
+    width: 40vw;
+  }
+  .aside-description {
+    font-size: calc(0.75rem + 1vw);
+  }
+}
+

@@ -30,7 +30,7 @@ function App() {
       <div className="container text-[#e0e1dd]">
         <aside className="w-[100%] h-[100vh] bg-[#415A77] text-platinum p-4 bg-ox rounded-r-4xl">
           <img src={konata} alt="logo" className="logo mb-[2rem] rounded-4xl"></img>
-          <p className="aside-description text-justify text-xl">Welcome to my 2024 personal highlights! I update this at the beginning of every new year to showcase how life looked for me! While this is a rather simple gallery, more interactivity will come as I continue to develop the website! If anything is broken or you just want to reach out to me, feel free to visit my socials down below or join the Discord!</p>
+          <p className="aside-description text-justify text-xl">Welcome to my 2024 personal highlights! I update this at the beginning of the new year to showcase how life looked for me! While this is a rather simple gallery, more interactivity will come as I continue to develop the website! If anything is broken or you just want to reach out to me, feel free to visit my socials down below or join the Discord!</p>
           <div id="links" className="text-xl">
             <a className="hover:cursor-pointer" href="https://discord.gg/ta3qXMbkeV" target="_blank"><p className="text-[#e0e1dd] hover:text-[#0D1B2A]">Discord</p></a>
             <a target="_blank" href="https://www.github.com/sylkylacole"><p className="text-[#e0e1dd] hover:text-[#0D1B2A]">Github</p></a>

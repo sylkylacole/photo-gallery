@@ -18,6 +18,10 @@ import nature3 from './assets/gallery-images/nature3.jpg'
 import nature4 from './assets/gallery-images/nature4.jpg'
 import nature5 from './assets/gallery-images/nature5.jpg'
 import nature6 from './assets/gallery-images/nature6.jpg'
+import cat from './assets/gallery-images/cat_bell.mov'
+import cake from './assets/gallery-images/cake.mov'
+import kotlin from './assets/gallery-images/kotlin_app.mov'
+import nature_video from './assets/gallery-images/upside_down_nature.mov'
 
 function App() {
 
@@ -35,28 +39,35 @@ function App() {
         </aside>
         <div className="img-container bg-[#1B263B]">
           <div className="row m-[2rem]" id="row1">
-            <img src={me1} alt="placeholder-image" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl coolborder"></img>
-            <img src={food2} alt="placeholder-image" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl"></img>
-            <img src={nature1} alt="placeholder-image" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl"></img>
-            <img src={books1} alt="placeholder-image" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl"></img>
+            <img src={me1} alt="Picture of me" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl coolborder"></img>
+            <video src={cat} alt="A cat who believes it is a bell" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl coolborder" controls="controls"></video>
+            <img src={food2} alt="Korean ground beef on rice" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl"></img>
+            <img src={nature1} alt="Pretty foliage" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl"></img>
+            <img src={books1} alt="Book section at Walmart" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl"></img>
           </div>
           <div className="row m-[2rem]" id="row2">
-            <img src={nature2} alt="placeholder-image" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl"></img>
-            <img src={nature3} alt="placeholder-image" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl"></img>
-            <img src={me2} alt="placeholder-image" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl"></img>
-            <img src={food3} alt="placeholder-image" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl"></img>
+            <img src={nature2} alt="Pretty white flowers" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl"></img>
+            <img src={nature3} alt="Cute duckie" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl"></img>
+            <img src={me2} alt="Picture of me with my skinny glasses" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl"></img>
+            <video src={cake} alt="Birthday cake" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl" controls="controls"></video>
+            <img src={food3} alt="Rinabow sprinkle cupcakes" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl"></img>
           </div>
           <div className="row m-[2rem]" id="row3">
-            <img src={food4} alt="placeholder-image" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl"></img>
-            <img src={nature4} alt="placeholder-image" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl"></img>
-            <img src={edc1} alt="placeholder-image" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl"></img>
-            <img src={nature5} alt="placeholder-image" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl"></img>
+            <img src={food4} alt="Red velved cupcakes" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl"></img>
+            <img src={nature4} alt="Solar eclipse beginning" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl"></img>
+            <img src={edc1} alt="Tech EDC" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl"></img>
+            <video src={kotlin} alt="My first simple mobile app" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl" controls="controls"></video>
+            <img src={nature5} alt="80 solar eclipsse" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl"></img>
           </div>
           <div className="row m-[2rem]" id="row4">
-            <img src={food6} alt="placeholder-image" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl"></img>
-            <img src={me3} alt="placeholder-image" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl"></img>
-            <img src={nature6} alt="placeholder-image" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl"></img>
-            <img src={food5} alt="placeholder-image" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl"></img>
+            <img src={food6} alt="Cheesy pasta in a pot" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl"></img>
+            <img src={me3} alt="Picture of me holding a stuffed elephant" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl"></img>
+            <video src={nature_video} alt="View at the nature center" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl" controls="controls"></video>
+            <img src={nature6} alt="80 solar eclipse #2" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl"></img>
+            <img src={food5} alt="First perfect chocolate chip cookie" className="gallery-photo h-[25vh] w-[20vw] rounded-3xl"></img>
+          </div>
+          <div className="img-description">
+            <p>Some text</p>
           </div>
         </div>
       </div>
